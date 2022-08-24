@@ -16,6 +16,10 @@ p{
     text-align: center;
 }
 
+.mt-40{
+    margin-top: 40px;
+}
+
 button {
   width: 160px;
   height: 56px;
@@ -45,8 +49,9 @@ header h1 {
 }
 
 header p {
-    width: 960px;
-    text-align: center;
+  width: 960px;
+  color: #fff;
+  text-align: center;
 }
 
 .donate-section{
@@ -102,24 +107,85 @@ header p {
     align-items: center;
 }
 
+.plan-box{
+    text-align: center;
+    padding: 40px;
+    margin: 50px;
+}
+
+.blue-box{
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.pink-box{
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.yellow-box{
+    background: #FFF4D6;
+}
+
 .shop-section{
-    width: 700px;
     display: flex;
     flex-direction: column;
 }
 
 .shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.shop-item{
+    background: #f5f5f5;
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.shop-item img{
+    width: 200px;
 }
 
 .subscribe{
-    width: 700px;
     display: flex;
+    flex-direction: column;
+}
+
+.sub-input{
+    display: flex;
+    justify-content: center;
+    background: #FFF4D6;
+    padding: 50px;
+    margin: 0px 380px;
+}
+
+.sub-input input[type='submit']{
+    border: none;
+    background: #FF5959;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 0px 5px 5px 0px;
+    position: relative;
+    left: -2px;
+}
+
+.sub-input input[type='email']{
+    border: none;
+    background: #D9D9D9;
+    color: black;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
 }
 
 footer{
     background-color: #000;
     text-align: center;
+    margin-top: 90px ;
 }
 
 footer h3 {
